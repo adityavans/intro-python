@@ -1,0 +1,10 @@
+import time 
+import webbrowser
+#this function will open a browser link after some interval
+def open_browser():
+    i=0
+    while i<=4:
+           webbrowser.open("https://www.youtube.com/?gl=IN") #webbrowser will open youtube.
+           time.sleep(25) 
+           i=1+1
+open_browser()   
